@@ -1,0 +1,40 @@
+#mainNav {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 3.5rem; /* Adjust as needed */
+    padding-left: 5rem
+}
+
+#mainNav .navbar-brand {
+    font-size: 1.2rem;
+}
+
+#mainNav .navbar-nav .nav-link {
+    font-size: 0.9rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.4rem;
+}
+
+@media (max-width: 991.98px) {
+    #mainNav {
+        height: auto; /* Allow height to adjust on mobile */
+    }
+}
+.btn-logo-color {
+    background-color: #6883f8;
+    border-color: #6883f8;
+    color: white;
+}
+
+.btn-logo-color:hover {
+    background-color: #5670e5; /* Slightly darker shade for hover effect */
+    border-color: #5670e5;
+    color: white;
+}
+
+.btn-logo-color:focus, .btn-logo-color:active {
+    background-color: #4a62d2; /* Even darker shade for focus/active state */
+    border-color: #4a62d2;
+    color: white;
+    box-shadow: 0 0 0 0.25rem rgba(104, 131, 248, 0.5); /* Adjust the shadow color to match */
+}
