@@ -45,3 +45,19 @@ section {
 .app-badge {
     height: 3rem;
 }
+.custom-gradient {
+    background: linear-gradient(90deg, #6883f8 0%, #8a2be2 100%);
+
+}
+.svg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg-container svg {
+    margin-bottom: 20px; /* Adjust this value as needed for spacing between SVGs */
+}
+.svg-container svg:last-child {
+    margin-right: 0; /* Remove margin for the last SVG */
+}
